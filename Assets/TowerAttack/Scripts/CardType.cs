@@ -14,13 +14,13 @@ public class CardType : ScriptableObject {
     /// <summary>
     /// Custo da carta para usar
     /// </summary>
-    public int manaCost;
-    /// <summary>
-    /// Prefab gerado ao jogar a carta
-    /// </summary>
-    public GameObject playPrefab;
+    public int playCost;
     /// <summary>
     /// Descrição da carta
     /// </summary>
     public string cardDescription;
+    /// <summary>
+    /// Imagem da carta
+    /// </summary>
+    public Texture2D cardImage;
 }
