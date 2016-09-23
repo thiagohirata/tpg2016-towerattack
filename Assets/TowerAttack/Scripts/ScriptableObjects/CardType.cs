@@ -22,5 +22,5 @@ public class CardType : ScriptableObject {
     /// <summary>
     /// Imagem da carta
     /// </summary>
-    public Texture2D cardImage;
+    public Sprite cardImage;
 }
