@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deck: []
-  money: 1000
+  money: 200
 --- !u!4 &852102713
 Transform:
   m_ObjectHideFlags: 0
