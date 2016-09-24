@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30bb9443eafcf9429d5dd379a85fce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: {fileID: 11400000, guid: 5fa17c1b5eed0e642b0ca1c4ffe6a77d, type: 2}
+  cardType: {fileID: 0}
 --- !u!114 &11477328
 MonoBehaviour:
   m_ObjectHideFlags: 1

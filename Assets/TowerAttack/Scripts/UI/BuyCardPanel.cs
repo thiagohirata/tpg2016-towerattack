@@ -32,6 +32,7 @@ public class BuyCardPanel : MonoBehaviour {
         {
             player.money -= cardType.cost;
             player.deck.Add(cardType);
+            player.Save();
         }
     }
 	

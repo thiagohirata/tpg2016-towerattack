@@ -168,6 +168,11 @@ Prefab:
       propertyPath: m_Name
       value: GoblinBuyPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 11468650, guid: 83224922d6f7c0f418a841b41dd12c11, type: 2}
+      propertyPath: cardType
+      value: 
+      objectReference: {fileID: 11400000, guid: 5fa17c1b5eed0e642b0ca1c4ffe6a77d,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83224922d6f7c0f418a841b41dd12c11, type: 2}
   m_IsPrefabParent: 0
