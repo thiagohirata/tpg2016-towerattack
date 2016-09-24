@@ -4,6 +4,11 @@ using System.Collections;
 [CreateAssetMenu(fileName = "Card", menuName = "TowerAttack/New Card")]
 public class CardType : ScriptableObject {
     /// <summary>
+    /// ID da carta - se existir outra
+    /// carta com mesmo ID, vai gerar bugs
+    /// </summary>
+    public string cardId;
+    /// <summary>
     /// Nome da carta
     /// </summary>
     public string cardName;

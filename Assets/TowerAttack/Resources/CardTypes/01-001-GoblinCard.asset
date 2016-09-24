@@ -9,8 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40c091602f9c2fc43b1a9ac96906568f, type: 3}
-  m_Name: GoblinCard
+  m_Name: 01-001-GoblinCard
   m_EditorClassIdentifier: 
+  cardId: 01-001
   cardName: Goblin
   cost: 100
   playCost: 0

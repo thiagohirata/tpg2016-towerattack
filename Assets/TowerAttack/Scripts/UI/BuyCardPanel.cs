@@ -22,7 +22,13 @@ public class BuyCardPanel : MonoBehaviour {
     void Update()
     {
         PlayerData player = PlayerData.main;
-        buyButton.interactable = player.money >= cardType.cost;
+        if(player != null && cardType != null)
+        {
+            buyButton.interactable = player.money >= cardType.cost;
+        } else
+        {
+            buyButton.interactable = false;
+        }
     }
 
     public void BuyCard()
